@@ -10,7 +10,7 @@ public class Main {
             Object object = messagePrinter.getDeclaredConstructor().newInstance();
             Method printMessage = messagePrinter.getMethod("printMessage");
 
-            printMessage.invoke(object);
+            printMessage.invoke(object); //
 
     }
 }
